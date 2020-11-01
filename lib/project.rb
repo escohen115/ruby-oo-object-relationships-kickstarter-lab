@@ -20,3 +20,4 @@ class Project
         ProjectBacker.all.select {|backer|backer.project ==self}.map(&:backer)
     end
     
+end
